@@ -1,0 +1,4 @@
+templates:
+  - template: test.json.ftl
+    writer: json
+    name: "@MODDATAROOT/@registryname.json"
