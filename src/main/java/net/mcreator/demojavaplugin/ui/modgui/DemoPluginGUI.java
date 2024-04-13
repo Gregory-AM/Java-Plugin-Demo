@@ -43,6 +43,6 @@ public class DemoPluginGUI extends ModElementGUI<DemoPlugin> {
 
     @Override
     public DemoPlugin getElementFromGUI() {
-        return null;
+        return new DemoPlugin(modElement);
     }
 }
