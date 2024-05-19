@@ -1,6 +1,7 @@
 {
   "id": "demojava",
-  "minversion": 202200200000,
+  "minversion": 202300400000,
+  "maxversion": 202300499999,
   "weight": 0,
   "javaplugin": "net.mcreator.demojavaplugin.Launcher",
   "info": {
