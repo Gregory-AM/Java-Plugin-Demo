@@ -9,6 +9,6 @@ import static net.mcreator.element.ModElementTypeLoader.register;
 public class DemoPluginTypes {
     public static ModElementType<?> DEMOPLUGIN;
     public static void load(){
-        DEMOPLUGIN = register(new ModElementType<>("demojava", null, BaseType.OTHER, DemoPluginGUI::new, DemoPlugin.class));
+        DEMOPLUGIN = register(new ModElementType<>("demojava", null, DemoPluginGUI::new, DemoPlugin.class));
     }
 }
