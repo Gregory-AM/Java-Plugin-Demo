@@ -15,6 +15,8 @@ import java.awt.*;
 public class DemoPluginGUI extends ModElementGUI<DemoPlugin> {
     public DemoPluginGUI(MCreator mcreator, @Nonnull ModElement modElement, boolean editingMode) {
         super(mcreator, modElement, editingMode);
+        this.initGUI();
+        this.finalizeGUI();
     }
 
     @Override
